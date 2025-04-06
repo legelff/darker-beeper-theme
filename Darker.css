@@ -1,0 +1,182 @@
+/* DARK MODE ONLY! */
+
+html {
+    --theme-my-bubble-color: #1c1c1c;
+    --theme-accent-color: #ffffff;
+    --theme-their-bubble-color: #101010;
+    --theme-chat-background-color: #000000;
+
+    --theme-borderwidth: 0;
+    --theme-borderradius: 10px;
+    --theme-bubble-padding-v: 8px;
+    --theme-bubble-padding-h: 12px;
+
+
+
+    --chatview__backgroundcolor: var(--theme-chat-background-color);
+
+    --chatview__fontsize: 2.2rem;
+    --chatview__lineheight: var(--chatview__fontsize);
+    --chatview__paddingleft: var(--size-spacing-400);
+    --chatview__paddingright: var(--size-spacing-400);
+
+    --chatview__composer__borderradius: var(--theme-borderradius);
+    --chatview__composer__backgroundcolor: #1C1C1C;
+
+    --chatview__message_group__margintop: 12px;
+
+    --chatview__message_tail__opacity: 0;
+    --chatview__message_tail__color: var(--theme-their-bubble-color);
+    --chatview__message__backgroundcolor: var(--theme-their-bubble-color);
+    --chatview__message__fontcolor: #F6F6F6;
+
+    --chatview__message__paddingleft: var(--theme-bubble-padding-h);
+    --chatview__message__paddingright: var(--theme-bubble-padding-h);
+    --chatview__message__paddingtop: var(--theme-bubble-padding-v);
+    --chatview__message__paddingbottom: var(--theme-bubble-padding-v);
+    --chatview__message__marginleft: 4px;
+    --chatview__message__marginright: 4px;
+    --chatview__message__margintop: 4px;
+
+    --chatview__message__borderradius: var(--theme-borderradius);
+    --chatview__message_sharp__borderradius: var(--theme-borderradius);
+
+    --chatview__message_sender_name__alpha: 1;
+    --chatview__message_sender_name__lightness: 65%;
+
+    --chatview__message_self__backgroundcolor: var(--theme-my-bubble-color);
+    --chatview__readmarker__fontcolor: var(--theme-accent-color);
+}
+
+/* message composer */
+.mx_MessageComposer_wrapper {
+    border: 1px solid #404040;
+}
+
+/* Chat Header */
+.mx_RoomHeader {
+    background-color: #000000;
+}
+
+/* title bar */
+.bp_TitleBar {
+    background-color: #000000;
+    border-bottom: 1px solid hsl(0deg 0% 100% / 10%);
+}
+
+/* main panel (on beeper start) */
+.bp_MainPanel {
+    background-color: #000000;
+}
+
+/* remove invite to beeper btn */
+.mx_HeaderButtons {
+    display: none;
+}
+
+/* left sidebar */
+.mx_MatrixChat_wrapper--windows .bp_LeftPanel,
+.mx_MatrixChat_wrapper--linux .bp_LeftPanel {
+    background-color: #000000;
+}
+
+._35xSVdLoDIOdPHIBAg_R8g ._2vZ9oqXdF49-MWygHhuGTy {
+    background-color: #101010;
+}
+
+/* minimize maximize hover states */
+.AppControls-minimize:hover,
+.AppControls-maximize:hover,
+.AppControls-unmaximize:hover {
+    background-color: #101010;
+}
+
+.AppControls-minimize:hover svg,
+.AppControls-maximize:hover svg,
+.AppControls-unmaximize:hover svg {
+    fill: #ffffff !important;
+}
+
+/* bottom right corner btns */
+._3_OJr9nYVF9B_vLta7g7Nw {
+    background-color: #1c1c1c;
+}
+
+/* context menus */
+.mx_ContextualMenu {
+    background-color: #101010;
+}
+
+/* horizontal seps */
+.mx_ResizeHandle_horizontal:hover,
+.mx_ResizeHandle_horizontal:hover {
+    background-color: transparent;
+}
+
+/* new messages on chat */
+._2aD0Xwn49yQeca7cYc8SV8 .agwEuAMwDJUzVWciLVfIf {
+    border-top: 1px solid #404040;
+}
+
+/* sidebar networks */
+.mx_MatrixChat_wrapper--windows ._1fJQLY3NzmLrdWaOTqOBgG,
+.mx_MatrixChat_wrapper--linux ._1fJQLY3NzmLrdWaOTqOBgG {
+    background-color: #000000;
+}
+
+._1fJQLY3NzmLrdWaOTqOBgG .MpkyObDAJJhMLDOkejyOJ {
+    background-color: #101010;
+}
+
+/* gif and emoji picker */
+._1YRwzUdGvJ6XBL0YGM9yqa {
+    background-color: transparent;
+}
+
+/* settings */
+.mx_Dialog {
+    background-color: #101010;
+}
+
+.ChatNetworksDialog-leftbar {
+    background-color: #101010;
+}
+
+.ChatNetworksDialog-content {
+    background-color: #101010;
+}
+
+.mx_AccessibleButton_hasKind:not(.mx_AccessibleButton_kind_link):not(.mx_AccessibleButton_kind_link_inline):not(.mx_MatrixChat_splashButtons) {
+    padding: 4px 20px;
+    border-radius: 10px;
+}
+
+/* chat networks positioning fix */
+.mx_ChatNetworksDialog_wrapper {
+    align-items: center;
+}
+
+.mx_ChatNetworks_Dialog {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 80vh;
+}
+
+/* scroll down btn */
+.mx_JumpToBottomButton .mx_JumpToBottomButton_scrollDown {
+    background-color: #101010;
+    border: 1px solid #404040;
+}
+
+.mx_JumpToBottomButton .mx_JumpToBottomButton_scrollDown:hover {
+    background-color: #1c1c1c;
+}
+
+.mx_IconizedContextMenu .mx_IconizedContextMenu_optionList .mx_AccessibleButton:hover {
+    background-color: #1C1C1C;
+}
+
+/* dialog menu  on ctrl + shift + i or smth*/
+._3yDlEazbDV1ZHg1bVsUha1 {
+    background-color: rgba(0, 0, 0, 0.9);
+}
