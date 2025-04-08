@@ -9,7 +9,7 @@ This project is a custom theme for Beeper Desktop. It modifies the appearance of
 
 ### ⚠️ Note
 
-Beeper Desktop v3.0 only
+Beeper Desktop v3.0 only. <br>
 This theme only looks nice when dark mode is enabled!
 
 ## Features
